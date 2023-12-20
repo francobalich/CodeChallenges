@@ -1,0 +1,9 @@
+.control__card {
+  background-color: var(--DarkBlue);
+  border-radius: 16px;
+  padding: 30px;
+}
+.control__buttonContainer {
+  display: flex;
+  flex-direction: column;
+}

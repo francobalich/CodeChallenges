@@ -1,0 +1,6 @@
+.card{
+  background-color: var(--DarkBlue);
+  border-radius: 16px;
+  padding: 30px;
+  width: calc((100% - 90px) / 4 );
+}

@@ -1,17 +1,15 @@
 import { timeData } from "../data/data"
 import { Card } from "./Card"
+import { Control } from "./Control"
+import './Dashboard.css'
 
 export const Dashboard = () => {
   return (
     <>
-      Report for
-      Jeremy Robson
-
-      Daily
-      Weekly
-      Monthly
-
-      {timeData.map((item) =><Card data={item}/>)}
+      <Control />
+      <div className="dashboard__cardContainer">
+        {timeData.map((item) => <Card data={item} key={item.title} />)}
+      </div>
 
     </>
   )
